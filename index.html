@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            display: flex;
+            padding: 20px;
+            justify-content: center;
+          
+        }
+        
+        .card{
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            
+        }
+        h2{
+            text-align: center;
+
+        }
+        button{
+            display: block;
+            margin: 5px auto;
+            width: 80%;
+            border-radius: 20px;
+            border: 0;
+            background-color: black;
+            color: white;
+            padding: 8px 1px;
+        }
+        img{
+            height: 80px;
+            display: inline-block;
+        }
+        .img-div{
+            justify-content: center;
+            display: flex;
+            margin: 10px 0;
+        }
+        h1{
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Card CSS</h1>
+    <div class="container">
+        <div class="card">
+            
+            <div class="img-div">
+                <img src="img/twitter.png" alt="">
+            </div>
+            <h2>TWITTER</h2>
+            <p>
+                Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.
+            </p>
+            <button>Follow</button>
+        </div>
+        <div class="card">
+            <div class="img-div">
+            <img src="img/instagram.png" alt="">
+        </div>
+            <h2>INSTAGRAM</h2>
+            <p>
+                Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.
+            </p>
+            <button>Follow</button>
+        </div>
+        <div class="card">
+            <div class="img-div">
+            <img src="img/youtube.png" alt="">
+        </div>
+            <h2>YOUTUBE</h2>
+            <p>
+                Lorem ipsum dolor sit  amet <br>consectetur adipisicing elit.
+            </p>
+            <button>Follow</button>
+        </div>
+    </div>
+</body>
+</html>
